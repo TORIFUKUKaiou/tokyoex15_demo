@@ -1,5 +1,7 @@
 # Demo
 
+[![CircleCI](https://circleci.com/gh/TORIFUKUKaiou/tokyoex15_demo/tree/main.svg?style=svg)](https://circleci.com/gh/TORIFUKUKaiou/tokyoex15_demo/tree/main)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
