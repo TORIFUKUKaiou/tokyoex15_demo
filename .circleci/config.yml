@@ -1,7 +1,4 @@
-version: 2.1
-
-orbs:
-  discord: antonioned/discord@0.1.0
+version: 2
 
 jobs:
   build:
@@ -28,7 +25,3 @@ jobs:
       - run: mix credo
       - run: mix test
       - run: mix dialyzer
-
-      - discord/status:
-          failure_message: "**${CIRCLE_USERNAME}**'s: **${CIRCLE_JOB}** failed."
-          success_message: "**${CIRCLE_USERNAME}** success."
